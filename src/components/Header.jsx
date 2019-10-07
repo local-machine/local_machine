@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 function Header(){
   return (
-    <h1>Jessica Munoz</h1>
+    <h1>Header</h1>
   );
 }
 
