@@ -58,7 +58,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "template.ejs",
       appMountId: "react-app-root",
-      title: "LOCAL_MACHINE",
+      title: "Local_Machine",
       filename: resolve(__dirname, "build", "index.html")
     })
   ]

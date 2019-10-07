@@ -3,17 +3,18 @@ import Header from './Header';
 import Footer from './Footer';
 import About from './About';
 import Introduction from './Introduction';
-// import { Switch, Route } from 'react-router-dom';
+import Contact from './Contact';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Header/>
-      {/* <Switch>
-
-      </Switch> */}
-      <Introduction/>
-      <About />
+      <Header />
+      <Introduction />
+      <Switch>
+        <Route exact path="/" component={About} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
       <Footer />
     </div>
   );
