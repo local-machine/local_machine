@@ -4,28 +4,32 @@ function Contact() {
   return (
     <div>
       <ul>
-        <li>GitHub
+        <li>
           <a
             href="https://github.com/local-machine"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="icon-facebook2" />
+            GitHub
           </a>
         </li>
-        <li>LinkedIn
+        <li>
           <a
             href="https://www.linkedin.com/in/jess-munoz/"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
+            LinkedIn
+          </a>
         </li>
-        <li>Twitter
+        <li>
           <a
             href="https://twitter.com/local_machine"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
+            Twitter
+          </a>
         </li>
       </ul>
     </div>
