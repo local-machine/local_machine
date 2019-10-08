@@ -1,6 +1,6 @@
 # Portfolio Page
 
-#### _Single page web application with React to serve as a portfolio. - September 23rd, 2019_
+#### _Single page web application with React to serve as a portfolio. - October 4th, 2019_
 
 #### _By **Jessica Munoz**_
 
