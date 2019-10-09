@@ -3,7 +3,6 @@ import React from 'react';
 function About() {
   return (
     <div>
-      <h5>Tenacious programmer always looking to learn more!</h5>
       <p>
         I bring communication, enthusiasm & programming prowess. With a
         background in computer networking & support, I know how to interface
