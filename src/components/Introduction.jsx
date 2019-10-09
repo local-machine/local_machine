@@ -3,7 +3,7 @@ import React from 'react';
 function Introduction() {
   return (
     <div>
-      <h3>Jessica Muñoz</h3>
+      {/* <h3>Jessica Muñoz</h3> */}
     </div>
   );
 }

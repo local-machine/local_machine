@@ -6,10 +6,9 @@ import Introduction from './Introduction';
 import Contact from './Contact';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
-// import Layout from './Layout';
+import Layout from './Layout';
 import eniacWomen from '../assets/images/eniac-women.jpg';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
+import { NavigationBar } from './NavigationBar';
 
 function App() {
   return (
@@ -28,20 +27,21 @@ function App() {
           width: 25%;
         }
       `}</style>
-      <Container>
 
-        {/* <React.Fragment> */}
-        <Header />
-        <Introduction />
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route component={Error404} />
-        </Switch>
-        <img src={eniacWomen} />
-        <Footer />
-      </Container>
-      {/* </React.Fragment> */}
+      <React.Fragment>
+        <NavigationBar />
+        <Layout>
+          <Header />
+          <Introduction />
+          <Switch>
+            <Route exact path="/" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route component={Error404} />
+          </Switch>
+          <img src={eniacWomen} />
+          <Footer />
+        </Layout>
+      </React.Fragment>
     </div>
   );
 }
