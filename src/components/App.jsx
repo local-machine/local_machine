@@ -7,7 +7,6 @@ import Contact from './Contact';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import eniacWomen from '../assets/images/eniac-women.jpg';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

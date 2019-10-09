@@ -50,6 +50,10 @@ module.exports = {
         }
       },
       {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
+      {
         test: /\.(png|gif|jp(e*)g|svg)$/,
         use: {
           loader: "url-loader",
