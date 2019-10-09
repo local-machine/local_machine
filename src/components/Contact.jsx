@@ -4,6 +4,8 @@ function Contact() {
   return (
     <div>
       <h5>Contact</h5>
+      <hr />
+      <h6>Drop me a line at Ms.Jessica.Munoz@gmail.com</h6>
       <ul>
         <li>
           <a

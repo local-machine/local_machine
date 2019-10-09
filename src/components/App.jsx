@@ -1,12 +1,13 @@
 import React from 'react';
 import Footer from './Footer';
-import About from './About';
+import Home from './Home';
 import Contact from './Contact';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import Layout from './Layout';
 import { NavigationBar } from './NavigationBar';
 import { Jumbotron } from './Jumbotron';
+import { Avatar } from './Avatar';
 
 function App() {
   return (
@@ -17,22 +18,15 @@ function App() {
           font-family: Lucida Console;
         }
       `}</style>
-      <style jsx>{`
-        img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 25%;
-        }
-      `}</style>
 
       <React.Fragment>
         <NavigationBar />
         <Jumbotron />
+        <Avatar />
         <Layout>
           <Switch>
-            <Route exact path="/" component={About} />
-            <Route path="/contact" component={Contact} />
+            <Route exact path="/" component={Home} title="Home" />
+            <Route path="/contact" component={Contact} title="Contact" />
             <Route component={Error404} />
           </Switch>
           <Footer />
