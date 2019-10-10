@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Container from 'react-bootstrap/Container';
 
 function Layout(props) {
-  console.log(props.children);
   return (
     <Container>
       {props.children}

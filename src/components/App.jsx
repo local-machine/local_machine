@@ -8,6 +8,7 @@ import Layout from './Layout';
 import { NavigationBar } from './NavigationBar';
 import { Jumbotron } from './Jumbotron';
 import { Avatar } from './Avatar';
+// import { DaysOfCode } from './DaysOfCode';
 
 function App() {
   return (
@@ -20,10 +21,11 @@ function App() {
       `}</style>
 
       <React.Fragment>
-        <NavigationBar />
-        <Jumbotron />
-        <Avatar />
         <Layout>
+          <NavigationBar />
+          <Jumbotron />
+          <Avatar />
+          {/* <DaysOfCode /> */}
           <Switch>
             <Route exact path="/" component={Home} title="Home" />
             <Route path="/contact" component={Contact} title="Contact" />
