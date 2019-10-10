@@ -4,32 +4,26 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .image-cropper {
-    width: 15%;
-    height: 15%;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 175px;
+    max-height: 175px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+  }
+  .center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .profile-pic {
-    display: inline-block;
-    margin: 0 auto;
-    float: left;
-  }
-  .myContent{
-    column-count: 2;
-    column-gap: 20px;
-    height: 350px;
+    width: 50%;
   }
 `;
 
 export const Avatar = () => (
   <Styles >
     <div >
-      <img className="image-cropper myContent" src={handOnHip} />
+      <img className="image-cropper center" src={handOnHip} />
+      <br />
+      {/* <hr /> */}
     </div>
   </Styles>
 );

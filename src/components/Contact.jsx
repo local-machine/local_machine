@@ -3,9 +3,9 @@ import React from 'react';
 function Contact() {
   return (
     <div>
-      <h5>Contact</h5>
+      <h3>Contact</h3>
       <hr />
-      <h6>Drop me a line at Ms.Jessica.Munoz@gmail.com</h6>
+      <h6>Drop Me a Line at Ms.Jessica.Munoz@gmail.com</h6>
       <ul>
         <li>
           <a

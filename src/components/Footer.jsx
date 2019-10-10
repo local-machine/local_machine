@@ -12,7 +12,7 @@ function Footer(){
   return (
     <Styles>
       <hr/>
-      <p className="footer">Will work for snacks.</p>
+      <p className="footer">When in Doubt, Whiteboard It Out</p>
     </Styles>
   );
 }

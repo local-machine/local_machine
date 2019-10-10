@@ -2,7 +2,6 @@ import React from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import eniacWomen from '../assets/images/eniac-women3.jpg';
-// import { Avatar } from "./Avatar";
 
 const Styles = styled.div`
   .jumbo {
@@ -30,10 +29,7 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        {/* <Avatar /> */}
-
-        <h1>Jessica Muñoz</h1>
-        <p>Tenacious programmer always looking to learn more!</p>
+        <p>A Tenacious Programmer Always Looking to Learn More</p>
       </Container>
     </Jumbo>
   </Styles>
