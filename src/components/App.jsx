@@ -8,6 +8,7 @@ import Layout from './Layout';
 import { NavigationBar } from './NavigationBar';
 import { Jumbotron } from './Jumbotron';
 import { Avatar } from './Avatar';
+import Projects from './Projects';
 // import { DaysOfCode } from './DaysOfCode';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} title="Home" />
             <Route path="/contact" component={Contact} title="Contact" />
+            <Route path="/projects" component={Projects} title="Projects" />
             <Route component={Error404} />
           </Switch>
           <Footer />
