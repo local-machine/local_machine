@@ -3,6 +3,12 @@ import React from 'react';
 function Home() {
   return (
     <div>
+      <style jsx>{`
+        h5 {
+          font-family: Lucida Console;
+          text-align: center;
+        }
+      `}</style>
       <h3>About</h3>
       <p>
         I bring communication, enthusiasm & programming prowess. With a
@@ -15,6 +21,11 @@ function Home() {
         detail, documentation, efficiency & an ever-growing desire to learn
         more.
       </p>
+      <br />
+      <h5>Skills</h5>
+      <h5>JavaScript | React | C# | .Net Core | Relational Databases | Node.js< br/>
+Git | jQuery | EntityFramework | LINQ | HTML | CSS | MVC | API | Test-driven Development</h5>
+      <br />
     </div>
   );
 }

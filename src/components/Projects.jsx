@@ -57,6 +57,7 @@ function Projects() {
         </a>
         !
       </h6>
+      <br />
     </div>
   );
 }
