@@ -17,7 +17,7 @@ function Contact() {
             GitHub
           </a>
         </li>
-      <br />
+        <br />
         <li>
           <a
             href="https://www.linkedin.com/in/jess-munoz/"
@@ -27,7 +27,7 @@ function Contact() {
             LinkedIn
           </a>
         </li>
-      <br />
+        <br />
         <li>
           <a
             href="https://twitter.com/local_machine"

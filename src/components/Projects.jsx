@@ -23,7 +23,7 @@ function Projects() {
         <li>
           <h6>JavaScript | API | jQuery</h6>
           <a
-            href="https://github.com/local-machine/AnimalShelter"
+            href="https://github.com/local-machine/doctorlookup"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,7 +35,7 @@ function Projects() {
         <li>
           <h6>C# | .NET Core | MySQL | User Authentication</h6>
           <a
-            href="https://github.com/local-machine/doctorlookup"
+            href="https://github.com/local-machine/PierresTreats.Solution"
             target="_blank"
             rel="noopener noreferrer"
           >
