@@ -6,7 +6,7 @@
 
 ## Description 
 
-This website is utilized to provide information on your's truely.
+This website is utilized to provide information on your's truely. It includes an about, contact and projects page. It is currently undergoing further development. 
 
 <!-- ### Specs
 | Spec | Input | Output |
@@ -18,6 +18,10 @@ This website is utilized to provide information on your's truely.
 | **** |  |  | -->
 
 
+
+## Visit: http://local-machine.com
+
+* Hosted on AWS with EC2 instance running Nginx web service.
 
 ## Setup/Installation Requirements
 
@@ -31,6 +35,8 @@ This website is utilized to provide information on your's truely.
 ## Technologies Used
 * JavaScript
 * React
+* React Router
+* React-Bootstrap
 * npm | node.js
 * webpack
 * Babel
