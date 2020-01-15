@@ -28,7 +28,7 @@ function Contact() {
           </a>
         </li>
         <br />
-        <li>
+        {/* <li>
           <a
             href="https://twitter.com/local_machine"
             target="_blank"
@@ -36,7 +36,7 @@ function Contact() {
           >
             Twitter
           </a>
-        </li>
+        </li> */}
       </ul>
       <br />
     </div>
