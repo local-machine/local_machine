@@ -28,15 +28,6 @@ function Contact() {
           </a>
         </li>
         <br />
-        {/* <li>
-          <a
-            href="https://twitter.com/local_machine"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </li> */}
       </ul>
       <br />
     </div>
