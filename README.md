@@ -1,12 +1,13 @@
 # Portfolio Page
 
-#### _Single page web application with React to serve as a portfolio. - October 4th, 2019_
+#### _Single Page Web Application With React, Javascript and AWS Hosting_
 
 #### _By **Jessica Munoz**_
 
 ## Description 
 
-This website is utilized to provide information on your's truely. It includes an about, contact and projects page. It is currently undergoing further development. 
+This web application is a portfolio meant to provide information on your's truly. It includes an about, contact and projects page. Please note this application is a work in progress.
+
 
 <!-- ### Specs
 | Spec | Input | Output |
@@ -30,7 +31,7 @@ This website is utilized to provide information on your's truely. It includes an
 * In Terminal, enter the command: npm run start
 
 ## Known Bugs
-* No known bugs at this time.
+* Some bootstrap elements aren't rendered on all browsers(e.g. Microsoft Edge on mobile has the incorrect font).
 
 ## Technologies Used
 * JavaScript
